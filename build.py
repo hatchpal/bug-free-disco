@@ -64,7 +64,4 @@ for page in pages:
 	)
 	
 	open(page['output'], 'w+').write(html_result)
-print(pages)
-
-print(page['output'])
 
